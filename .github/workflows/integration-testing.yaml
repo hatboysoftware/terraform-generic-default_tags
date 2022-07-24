@@ -31,3 +31,4 @@ jobs:
           AZURE_CLIENT_ID: ${{ secrets.SBX_CLIENT_ID }}
           ARM_CLIENT_SECRET: ${{ secrets.SBX_CLIENT_SECRET }}
           AZURE_CLIENT_SECRET: ${{ secrets.SBX_CLIENT_SECRET }}
+          TF_TOKEN_app_terraform_io: ${{ secrets.TFC_API_TOKEN }}
